@@ -3,12 +3,13 @@ import MainLayoute from "../Layouts/MainLayoute/MainLayoute";
 import Home from "../Pages/Home/Home";
 import Favorites from "../Pages/Favorites/Favorites";
 import Login from "../Pages/Login/Login";
+import ErrorPage from "../ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayoute></MainLayoute>,
-    errorElement: 
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
