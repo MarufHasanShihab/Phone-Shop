@@ -19,7 +19,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="flex justify-between items-center py-3 px-8 shadow-lg">
+    <div className="md:flex justify-between items-center py-3 px-8 shadow-lg">
         <div>
             <h1 className="text-3xl font-bold">Phone-Shop</h1>
         </div>

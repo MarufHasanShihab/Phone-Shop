@@ -8,10 +8,12 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayoute></MainLayoute>,
+    errorElement: 
     children: [
       {
         path: "/",
         element: <Home></Home>,
+        loader: ()=> fetch('/public/phones.json')
       },
       {
         path: "/favorites",

@@ -4,7 +4,7 @@ import Navbar from "../../Navbar/Navbar";
 
 const MainLayoute = () => {
     return (
-        <div>
+        <div className="px-14">
             <Navbar></Navbar>
             <Outlet></Outlet>
         </div>
